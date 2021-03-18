@@ -1,0 +1,94 @@
+
+html {
+    font-size: 125%;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+// FONTS AND TYPOGRAPHY 
+
+h1,
+h2,
+h3,
+h4,
+figcaption,
+.logo p,
+.commentCount,
+.commentLeave,
+.mainNav {
+    font-family: $headingOne;
+    text-transform: uppercase;
+    color: $black;
+}
+
+h1,
+.logo p,
+.commentCount,
+.commentLeave {
+    font-weight: bold;
+    letter-spacing: 0.9px;
+}
+
+.logo p {
+    font-size: 1.2rem;
+}
+
+.commentCount,
+.commentLeave {
+    font-size: 1rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.09rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+    color: #4e4e4e;
+}
+
+p {
+    font-family: $body;
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+}
+
+.mainNav a {
+    color: $black;
+}
+
+
+

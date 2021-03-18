@@ -1,0 +1,47 @@
+
+.postWrapper {
+    width: 65%;
+    margin: 0 200px;
+}
+
+article {
+    padding-top: 80px;
+}
+
+.blogNav {
+    padding: 10px 0;
+}
+
+.blogNav span, 
+.blogNav a {
+    font-family: $body;
+    color: rgb(172, 172, 172);
+    font-size: 0.5rem;
+}
+
+.blogNav a:nth-child(3) {
+    color: $black;
+}
+
+.blogMetaData {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 20px;
+    grid-template-areas:
+    "authorImage authorName authorName authorName postDate category tags";
+    padding: 40px 0;
+  }
+  .authorImage { grid-area: authorImage; }
+  .authorName { grid-area: authorName; }
+  .postDate { grid-area: postDate; }
+  .category { grid-area: category; }
+  .tags { grid-area: tags; }
+
+  .authorImage {
+      width: 60px;
+      height: 60px;
+        img {
+            border-radius: 50%;
+        }
+  }

@@ -1,0 +1,194 @@
+
+.about {
+    background-color: $lightsage;
+    padding-top: 140px;
+    padding-bottom: 25px;
+}
+
+.circleText {
+    width: 13%;
+    position: absolute;
+    top:  765px;
+    left: 405px;
+    z-index: 10;
+}
+
+.aboutImage {
+    width: 35%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.textBox {
+    width: 55%;
+    display: flex;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.textLeft {
+    padding-right: 20px;
+}
+
+.textRight {
+    padding-left: 20px;
+}
+
+
+// BLOG SECTION
+.blog {
+    height: 75vh;
+}
+
+.blogBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-bottom: 20px;
+        i {
+            color: $black;
+                &:hover {
+                color: $lightgrey;
+            }
+        }
+}
+
+.blogImage img {
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.blogText {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+// FEATURES START
+
+.features { 
+    background-image:url("../assets/home-4.jpeg");
+    background-size: cover;
+}
+
+.listBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 100px 0;
+}
+
+.featuresList {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 400px;
+    align-content: flex-end;
+}
+
+.featuresItem {
+  max-width: 200px;
+  height: 200px;
+  margin: 10px;
+  flex: 1;
+  display: flex;
+}
+
+
+.featuresIcon {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+        i {
+            border: 2px solid #000000;
+            border-radius: 50%;
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+
+    // TEAM SECTION START
+    .team h2 {
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .teamGrid {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px 10px;
+        grid-template-areas:
+        "teamItem1 teamItem1 teamItem2 teamItem3"
+        "teamItem4 teamItem5 teamItem6 teamItem7";
+        padding: 80px 0;
+      }
+
+      .teamItem1 { 
+          grid-area: teamItem1; 
+          background: #F6F6F6;
+          display: flex; 
+          justify-content: flex-end;
+          align-items: flex-end;
+            div p, h4{
+                margin: 20px;
+            }
+        }
+
+        .teamItem7 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                h4 {
+                    text-align: center;
+                    margin: 20px;
+                }
+        }
+      .teamItem2 { grid-area: teamItem2; }
+      .teamItem3 { grid-area: teamItem3; }
+      .teamItem4 { grid-area: teamItem4; }
+      .teamItem5 { grid-area: teamItem5; }
+      .teamItem6 { grid-area: teamItem6; }
+      .teamItem7 { grid-area: teamItem7; }
+
+    //   PORTFOLIO START 
+
+    .portfolio {
+        background: $lightsage;
+        background-image: url("../assets/home-10.jpeg");
+        background-position: 100% 0;
+        background-size: 50%;
+        height: 90vh;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolioBox {
+        height: 100%;
+        display: flex;
+    }
+
+    .portfolioText {
+        width: 50%;
+        text-align: center;
+            p {
+                padding: 25px 60px;
+                color: $lightgrey;
+            }
+    }
+
+    .portfolioText a {
+        padding: 10px;
+        background-color: white;
+        font-family: $headingOne;
+        text-transform: uppercase;
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+
+

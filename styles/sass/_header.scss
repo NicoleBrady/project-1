@@ -1,0 +1,73 @@
+header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.homeHeader {
+    background-image: url("../assets/home-1.jpeg");
+}
+
+.blogHeader {
+    background-image: url("../assets/blog-1.jpeg");
+}
+
+.mainNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+        ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+                a {
+                    display: inline-block;
+                    font-size: 0.5rem;
+                    margin: 8px 6px;
+                    padding: 2.5px;
+                        &:hover {
+                            text-decoration: line-through;
+                        }
+                }
+        }
+}
+
+.mainNav {
+    i {
+        font-size: 0.7rem;
+    }
+}
+
+.navLeft {
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+.navRight {
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+nav .fa-shopping-bag {
+    position: relative;
+}
+
+nav .fa-shopping-bag::after {
+                content: '2';
+                width: 12px;
+                height: 12px;
+                border-radius: 7.5px;
+                background-color: $lightsage;
+                position: absolute;
+                z-index: 10;
+                top: 10px;
+                left: 5px;
+                font-size: 0.4rem;
+                display:flex;
+                flex-direction:row;
+                align-items: center;
+                justify-content: center;
+}
+

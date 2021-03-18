@@ -1,0 +1,60 @@
+// * {
+//     border: 1px solid red;
+// }
+
+footer {
+    background-color: $black;
+    color: $white;
+    margin: 0;
+}
+
+footer a {
+    color: $white;
+}
+
+// Headings
+
+.contactTitle,
+.postsTitle,
+.twitterTitle {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.footerBox {
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+        .footerChild {
+            margin: 40px;
+        }
+            p {
+                font-size: 0.5rem;
+                line-height: 1rem;
+            }
+}
+
+.recentPosts li {
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+}
+
+address {
+    font-style: normal;
+}
+
+.socialMedia {
+    display: flex;
+        ul {
+            list-style-type: none;
+                li {
+                    display: inline-block;
+                }
+        }
+}
+
+.companyName {
+    text-align: center;
+    margin: 0;
+    border-top: 1px solid $whitetwo;
+}
